@@ -1,14 +1,14 @@
 # monitoria
 corrigindo erro da inserção no bd
 
-; Desinstalando o Apache2! (lembrar de mover o projeto todo pra outro lugar) ;
+# Desinstalando o Apache2! (lembrar de mover o projeto todo pra outro lugar)
 sudo service apache2 stop 
 
 sudo chmod 775 /etc/init.d/apache2
 
 sudo rm /etc/init.d/apache2
 
-; Instalando o Xampp ;
+# Instalando o Xampp
 
 uname -m
 
